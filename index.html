@@ -12,25 +12,35 @@
   
   <body>
   <!--1 этаж сайта-->
-    <div class="header">
-	  <div class="header_section">
-	    <div class="header_item headerlogo">
+  <div class="wrap">
+  <div class="header">
+  
+    <div class="head">
+	  <div class="head__title">
+	    <div class="head__title__logoblock">
 		  TESLA
 	    </div>
 	  </div>
 	</div>
+	
+	<nav>
 	  
-	  <div class="header_item headerButton"><a href="#">Model S</a></div>
-	  <div class="header_item headerButton"><a href="#">Model X</a></div>
-	  <div class="header_item headerButton"><a href="#">Model 3</a></div>
-	  <div class="header_item headerButton"><a href="#">Roadster</a></div>
-	  <div class="header_item headerButton"><a href="#">Energy</a></div>
+	    <a href="#">Model S</a>
+	    <a href="#">Model X</a>
+	    <a href="#">Model 3</a>
+	    <a href="#">Roadster</a>
+	    <a href="#">Energy</a>
 	  
-	  <div class="header_section">
-	    <div class="header_item headerButton"><a href="#">Магазин</a></div>
-		<div class="header_item headerButton"><a href="#">Войти</a></div>
-	  </div>
-		
+	</nav>
+	  
+	  <nav>
+	    <a href="#">Магазин</a>
+		<a href="#">Войти</a>
+	  </nav>
+	  
+   </div> <!-- div class="header-->
+   <!--2 этаж сайта-->
+	<div class="content__item1">
 	  <div class="page">
 	    <div class="wrap">
 		  <h1 class="title">Model S</h1>
@@ -39,20 +49,20 @@
 	  </div>
 	  
 	  
-	  <div class="mc_item_wrap">
-	    <div class="mc_item">
+	  <div class="inner-content_wrap">
+	    <div class="inner-content">
 		    <img src="images/logo.png" alt="Спидометр" title="Спидометр">
 			<h4>2,7 сек 0-100км/ч</h4>
 		</div>
 	  
 	  
-		<div class="mc_item">
+		<div class="inner-content">
 		    <img src="images/logo.png" alt="Спидометр" title="Спидометр">
 			<h4>632км</h4>
 		</div>
 	  
 	  
-		<div class="mc_item">
+		<div class="inner-content">
 		    <img src="images/logo.png" alt="тест драйв" title="тест драйв">
 			<h4>тест драйв</h4>
 		</div>
@@ -60,13 +70,17 @@
 		<div class="dws">
 		  <a href="#" class="butt">ЗАКАЗАТЬ</a>
 		</div>
-	  </div> <!--mc_item_wrap-->
+	  </div> <!--content_item_wrap-->
+	 </div>
 	  
-  <!--2 этаж сайта-->
-	    <div class="mc_content">
-		  <h2>Model S</h2>
+  <!--3 этаж сайта-->
+	    <div class="content__item2">
+		  <div class="content__item2__title">
+		  <h2> Model S </h2>
+		  </div>
 		
-		<div class="mc_sidebar">
+		
+		<div class="sidebar-right">
 		  <h2>Будущее вождения</h2>
 		  <p>Модель S обладает лучшей в своем 
 		     классе вместимостью: в машине
@@ -81,7 +95,7 @@
 			 пассажира.
 		  </p>
 		
-		  <div class="mc_item">
+		  <div class="inner-sidebar">
 		    <img src="images/logo.png" alt="Дисплей" title="Дисплей">
 			<p>
 			<h4>17 дюймов</h4>
@@ -90,7 +104,7 @@
 			</div>
 	  
 	  
-		<div class="mc_item">
+		<div class="inner-sidebar">
 		    <img src="images/logo.png" alt="Беспроводное обновление" title="Беспроводное обновление">
 			<p>
 			<h4>Беспроводное обновление ПО</h4>
@@ -99,7 +113,7 @@
 		</div>
 	  
 	  
-		<div class="mc_item">
+		<div class="inner-sidebar">
 		    <img src="images/logo.png" alt="обем литра" title="обьем литра">
 			<p>
 			<h4>894 литра</h4>
@@ -107,22 +121,24 @@
 			</p>
 		</div>
 		
-		<div class="mc_item">
+		<div class="inner-sidebar">
 		    <img src="images/logo.png" alt="тест драйв" title="тест драйв">
 			<p>
 			<h4>Узнать больше</h4>
 			</p>
 		</div>
 		
-		<div class="dws">
+		<div class="inner-sidebar">
 		  <a href="#" class="butt">ЗАКАЗАТЬ</a>
 		</div>
-		</div> <!--mc_content-->
+		</div>
+		</div>
 		
-		<!--3 этаж сайта-->
 		
-		<div class="footer">
-	    <div class="wraper">
+		<!--4 этаж сайта-->
+		
+		<div class="content__item3">
+	    <div class="sidebar-left">
 		  <h2 class="title">Самый безопансый 
 		  автомобиль в мире</h2>
 		  <p>Модель S достигла наивысшей оценки
@@ -145,25 +161,27 @@
 		  </ul>
 		</div>
 		
-		<div class="mc_item_wrap">
-	    <div class="mc_item">
+		<div class="sidebar__item">
+	    <div class="sidebar__item__logo">
 		    <img src="images/logo.png" alt="5 звезд" title="">
 			<h4>5 ЗВЕЗД безопасности</h4>
 		</div>
 		</div>
 		
-		<div class="mc_item_wrap">
-	    <div class="mc_item">
+		<div class="sidebar__item">
+	    <div class="sidebar__item__logo">
 		    <img src="images/logo.png" alt="узнать больше" title="">
 			<h4>узнать больше</h4>
 		</div>
 		</div>
 		  
 		<div class="dws">
-		  <a href="#" class="butt">ЗАКАЗАТЬ</a>
+		  <a href="#" class="button">ЗАКАЗАТЬ</a>
 		</div>
 		  
 	  </div>
+	  </div>
+   </div>
     
   </body>
 </html>
